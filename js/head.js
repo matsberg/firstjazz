@@ -5,5 +5,5 @@
 
  var linktag = document.createElement('link');
   linktag.setAttribute('rel', 'stylesheet');
-  linktag.href = "css/style.css";
+  linktag.href = "../css/style.css";
   document.getElementsByTagName('head')[0].appendChild(linktag);
